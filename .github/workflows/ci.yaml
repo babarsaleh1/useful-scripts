@@ -15,6 +15,7 @@ jobs:
         # https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources
         os: [ ubuntu-latest, macos-12, macos-latest ]
       fail-fast: false
+        # the OS supported by GitHub Actions
       max-parallel: 64
     name: Test on ${{ matrix.os }}
 
